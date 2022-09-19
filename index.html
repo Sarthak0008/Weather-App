@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        
+    </style>
+
+</head>
+<body>
+    <!-- onload="getLocation()" -->
+   <div id="h"><h1>Get weather by city</h1></div> 
+   <div id="full">
+    <div id="body">
+        <input type="text" id="query" placeholder="enter city ">
+        <br><br>
+    <button onclick="getData()" id="btn">Search</button>
+    <div id="cont"></div>
+ 
+   </div>
+   <div class="mapouter">
+    <div class="gmap_canvas">
+        <iframe width="600" 
+        height="500"
+         id="gmap_canvas"
+         
+           frameborder="0" 
+           scrolling="no" 
+           marginheight="0" 
+           marginwidth="0">
+        </iframe>
+       </div></div>
+   </div>
+   <div class="weekly"></div>
+   
+ 
+   
+    
+    
+    
+</body>
+</html>
+<script src="index.js"></script>
