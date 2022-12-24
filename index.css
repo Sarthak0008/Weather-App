@@ -16,7 +16,7 @@ background-color: rgb(122, 174, 195);
 }
 #full{
 display: flex;
-width:80%;
+width:82%;
 margin: auto;
 }
 #query,#btn{
